@@ -1,3 +1,32 @@
-This repository aims to develop an executable application to flash programs on esp32 with more than 1 device at same time. This application is built and tested on  Windows 10 OS and is expected to be further developed in the future.
+# 🚀 ESP32 Multi-Flasher Application
 
-Here is also an example of a folder with a file extension .bin that have been exported from arduino IDE(https://randomnerdtutorials.com/bin-binary-files-sketch-arduino-ide/).
+A **powerful and efficient tool** to flash programs onto multiple ESP32 devices simultaneously! Designed for developers and enthusiasts, this application simplifies the process of flashing multiple devices, making it faster and more reliable.
+
+> **Built and tested on Windows 10 OS**  
+> This project is continuously evolving to meet future development needs.
+
+---
+
+## 🎯 Features
+- ✅ **Simultaneous flashing** of multiple ESP32 devices.
+- ✅ Supports `.bin` files exported from Arduino IDE.  
+- ✅ Easy-to-use interface and modular design.  
+- ✅ Error handling and real-time feedback for each flashing process.  
+
+---
+
+## 📂 Example `.bin` Files
+
+You can generate `.bin` files in Arduino IDE. Follow this [guide](https://randomnerdtutorials.com/bin-binary-files-sketch-arduino-ide/) to export `.bin` files for your ESP32 projects.  
+An example `.bin` file folder should contain:
+- **`bootloader.bin`**
+- **`partitions.bin`**
+- **`firmware.bin`**
+
+Here's what the folder might look like:
+/bin_files/ │ ├── bootloader.bin ├── partitions.bin └── firmware.bin
+
+## 📊 Example Output
+- INFO: Successfully flashed on COM1
+- INFO: Successfully flashed on COM2
+- ERROR: Invalid path file on COM3
