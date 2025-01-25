@@ -7,6 +7,8 @@ A **powerful and efficient tool** to flash programs onto multiple ESP32 devices 
 
 ---
 
+## ✨ For executable app you can click [source](https://drive.google.com/drive/folders/1XEZPVYBE-sqZsMinR7RpTbmcbSPijeEN?usp=sharing)
+
 ## 🎯 Features
 - ✅ **Simultaneous flashing** of multiple ESP32 devices.
 - ✅ Supports `.bin` files exported from Arduino IDE.  
